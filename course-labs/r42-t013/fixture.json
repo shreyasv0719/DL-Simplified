@@ -1,0 +1,46 @@
+{
+  "description": "Synthetic 4x4 grayscale CPU smoke fixture. This is simulated data, not the real EMNIST Letters dataset.",
+  "splits": {
+    "train": ["img_001", "img_002", "img_003"],
+    "validation": ["img_004"],
+    "test": ["img_005", "img_006"]
+  },
+  "records": [
+    {
+      "record_id": "img_001",
+      "group_id": "group_A",
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]],
+      "label": 0
+    },
+    {
+      "record_id": "img_002",
+      "group_id": "group_B",
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]],
+      "label": 0
+    },
+    {
+      "record_id": "img_003",
+      "group_id": "group_C",
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]],
+      "label": 1
+    },
+    {
+      "record_id": "img_004",
+      "group_id": "group_D",
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]],
+      "label": 1
+    },
+    {
+      "record_id": "img_005",
+      "group_id": "group_E",
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]],
+      "label": 0
+    },
+    {
+      "record_id": "img_006",
+      "group_id": "group_F",
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]],
+      "label": 1
+    }
+  ]
+}
